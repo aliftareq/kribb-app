@@ -1,9 +1,9 @@
-import { Text, View } from "react-native";
+import { SafeAreaView, Text } from "react-native";
 
 export default function Index() {
   return (
-    <View>
+    <SafeAreaView>
       <Text>Subscribe to roadside coder</Text>
-    </View>
+    </SafeAreaView>
   );
 }
